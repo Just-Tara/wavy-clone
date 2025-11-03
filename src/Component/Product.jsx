@@ -65,7 +65,7 @@ export default function Product() {
           </p>
         </div>
 
-        {/* Brands Section */}
+      
         <div className="flex flex-wrap justify-center gap-6 mt-10 text-gray-500 text-base sm:text-lg">
           <div className="flex items-center gap-2">
             <FontAwesomeIcon icon={faSlack} /> <span>Slack</span>
