@@ -8,7 +8,7 @@ export default function Features() {
                 <div className="bg-linear-to-b from-[#5d03d3] to-[#ff00ff] flex-2  h-[400px] ">
                     <div className="px-18 flex flex-col gap-2 py-6">
                         <p className="text-blue-500 text-[20px] underline underline-offset-6" id="feature">The Feature</p>
-                    <h1 className="text-white text-5xl  pb-5">Outsatnding app feature</h1>
+                    <h1 className="text-white text-5xl  pb-5">Outstanding app feature</h1>
                     <p className="text-white text-[12px] ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                          Non nobis accusantium dignissimos, 
                          harum ipsa quos eveniet dolorum molestiae quod natus sed 
