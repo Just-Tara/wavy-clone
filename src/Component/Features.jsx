@@ -16,7 +16,7 @@ export default function Features() {
                     
                     </div>
                 </div>
-                <img src="./src/assets/womanWithPhone.png" alt="" className="flex-3  h-[400px]" />
+                <img src="../assets/womanWithPhone.png" alt="" className="flex-3  h-[400px]" />
             </div>
 
             <div>
