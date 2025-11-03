@@ -1,3 +1,4 @@
+import googleImage from "../assets/google-play.png";
 import { faApple } from "@fortawesome/free-brands-svg-icons/faApple";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -46,7 +47,7 @@ export default function DownloadSection() {
           <div className="flex gap-4 mt-4">
             <div className="flex gap-1 bg-gray-950 pr-3 pl-2 py-1 rounded-md items-center">
               <img
-                src="./src/assets/google-play.png"
+                src={googleImage}
                 alt="google-image"
                 className="w-7 h-7"
               />
