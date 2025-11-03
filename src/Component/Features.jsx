@@ -1,3 +1,4 @@
+import womanWithPhone from "../assets/womanWithPhone.png";
 import { faBolt, faHeadset, faArrowRight, faPalette } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export default function Features() {
@@ -16,7 +17,7 @@ export default function Features() {
                     
                     </div>
                 </div>
-                <img src="./src/assets/womanWithPhone.png" alt="" className="flex-3  h-[400px]" />
+              <img src={womanWithPhone} alt="woman with phone" className="flex-3 h-[400px]" />
             </div>
 
             <div>
