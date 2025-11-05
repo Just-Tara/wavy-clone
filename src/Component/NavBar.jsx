@@ -41,7 +41,7 @@ return(
         </button>     
            {isMenuOpen && (
                <div className="fixed inset-0 flex justify-end bg-black/50 lg:hidden">
-                    <div className= "bg-[#35424a] backdrop-blur-lg shadow-lg transition-transform duration-500 ease-in-out z-40 h-full w-70 p-6 flex flex-col">
+                    <div className= "bg-linear-to-b from-[#5d03d3] to-[#ff00ff] backdrop-blur-lg shadow-lg transition-transform duration-500 ease-in-out z-40 h-full w-70 p-6 flex flex-col">
                        <button
                         onClick={() => setIsMenuOpen(false)}
                         className="self-start p-2 text-2xl hover:text-red-500 cursor-pointer"
