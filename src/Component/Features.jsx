@@ -5,7 +5,7 @@ export default function Features() {
     return(
         <>
             <div className="w-full lg:flex mb-15">
-                <div className="bg-linear-to-b from-[#5d03d3] to-[#ff00ff] flex-2  h-[500px] ">
+                <div className="bg-linear-to-b from-[#5d03d3] to-[#ff00ff] flex-2  lg:h-[500px] ">
                     <div className=" px-5 lg:px-18 flex flex-col gap-2 py-15">
                         <p className="text-blue-500 text-[20px] underline underline-offset-6" id="feature">The Feature</p>
                     <h1 className="text-white text-5xl flex-2  pb-5">Outstanding app feature</h1>
@@ -17,7 +17,7 @@ export default function Features() {
                     
                     </div>
                 </div>
-              <img src={womanWithPhone} alt="woman with phone" className="flex-3 bg-cover h-[500px]" />
+              <img src={womanWithPhone} alt="woman with phone" className="lg:flex-3 bg-cover lg:h-[500px] " />
             </div>
 
             <div>
