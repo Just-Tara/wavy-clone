@@ -32,7 +32,7 @@ export default function Product() {
         <NavBar />
 
       
-        <div className="flex flex-col lg:flex-row justify-center gap-40 px-50">
+        <div className="flex flex-col lg:flex-row justify-center gap-10 lg:gap-40 lg:px-50">
           <div className="max-w-md mt-12">
             <p className="text-blue-300 underline underline-offset-4 mb-3">
               Lorem ipsum dolor sit amet consectetur

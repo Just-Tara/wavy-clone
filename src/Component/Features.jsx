@@ -5,10 +5,10 @@ export default function Features() {
     return(
         <>
             <div className="w-full lg:flex mb-15">
-                <div className="bg-linear-to-b from-[#5d03d3] to-[#ff00ff] flex-2  h-[400px] ">
-                    <div className="px-18 flex flex-col gap-2 py-6">
+                <div className="bg-linear-to-b from-[#5d03d3] to-[#ff00ff] flex-2  h-[500px] ">
+                    <div className=" px-5 lg:px-18 flex flex-col gap-2 py-15">
                         <p className="text-blue-500 text-[20px] underline underline-offset-6" id="feature">The Feature</p>
-                    <h1 className="text-white text-5xl  pb-5">Outstanding app feature</h1>
+                    <h1 className="text-white text-5xl flex-2  pb-5">Outstanding app feature</h1>
                     <p className="text-white text-[12px] ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                          Non nobis accusantium dignissimos, 
                          harum ipsa quos eveniet dolorum molestiae quod natus sed 
@@ -17,16 +17,16 @@ export default function Features() {
                     
                     </div>
                 </div>
-              <img src={womanWithPhone} alt="woman with phone" className="flex-3 h-[400px]" />
+              <img src={womanWithPhone} alt="woman with phone" className="flex-3 bg-cover h-[500px]" />
             </div>
 
             <div>
                 <div className="flex flex-col items-center gap-1">
                     <h1 className="bg-gray-100 text-3xl font-bold p-2 rounded-[10px] mb-1">Awesome Features</h1>   
-                    <p className="text-gray-400 mb-15">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    <p className="text-gray-400 mb-15 px-8 text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
                          Non nobis accusantium dignissimos,</p>
                 </div>
-                <div className="lg:flex gap-6 px-30 mb-15">
+                <div className="flex flex-col px-8 lg:flex gap-8 lg:gap-6 md:px-30 lg:px-30 mb-15">
                     <div className="flex flex-col items-center gap-2">
                     <div className="bg-linear-to-b from-[#5d03d3] to-[#ff00ff] rounded-full p-5"> 
                         <FontAwesomeIcon icon={faPalette} className="text-3xl text-white" />   

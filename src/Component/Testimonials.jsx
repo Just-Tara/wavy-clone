@@ -32,33 +32,38 @@ export default function Testimonials() {
           fill="url(#waveGradient)"
         ></path>
       </svg>
-
+ 
       <div className="relative z-10 flex flex-col items-center gap-3 mt-5" id="testimonial">
         <h1 className="text-white text-3xl font-bold">Testimonials</h1>
-        <p className="text-gray-200">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <p className="text-gray-200 px-8 text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
 
-        <div className="flex gap-5 items-center">
-          <img src={first} alt="first" className="w-30 rounded-full" />
-          <img src={second} alt="second" className="w-30 rounded-full" />
-          <img src={fifth} alt="fifth" className="w-45 h-45 rounded-full" />
-          <img src={third} alt="third" className="w-28 h-28 rounded-full" />
-          <img src={fourth} alt="fourth" className="w-30 rounded-full" />
+      
+         <div className="flex gap-5 items-center p">
+          <img src={first} alt="first" className="lg:w-30 lg:h-30 w-20 h-20 rounded-full" />
+          <img src={second} alt="second" className="lg:w-30 lg:h-30 w-20 h-20 rounded-full" />
+          <img src={fifth} alt="fifth" className="lg:w-45 lg:h-45 w-30 h-30 rounded-full" />
+          <img src={third} alt="third" className="lg:w-30 lg:h-30 w-20 h-20 rounded-full" />
+          <img src={fourth} alt="fourth" className="lg:w-30 lg:h-30 w-20 h-20 rounded-full" />
         </div>
 
+       
         <div>
-          <p className="text-center mb-3 text-yellow-500 text-2xl">
+          <p className="text-center mb-3 text-yellow-500 lg:text-2xl">
             <FontAwesomeIcon icon={faStar} />
             <FontAwesomeIcon icon={faStar} />
             <FontAwesomeIcon icon={faStar} />
             <FontAwesomeIcon icon={faStar} />
             <FontAwesomeIcon icon={faStar} />
           </p>
-          <p className="text-white text-center mb-3">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, recusandae minima commodi...
+          <p className="text-white px-8  text-center mb-3">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+             Delectus, recusandae minima commodi.
           </p>
           <p className="text-white text-center text-[22px] font-bold">Debbie Harry</p>
         </div>
+        
       </div>
+  
     </div>
   );
 }
